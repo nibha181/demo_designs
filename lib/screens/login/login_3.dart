@@ -8,7 +8,7 @@ class LoginScreen3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.teal,
+      backgroundColor: Color(0xFFF2E7FE), // Soft pastel lavender
       body: Center(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 24.0),
@@ -23,19 +23,19 @@ class LoginScreen3 extends StatelessWidget {
                   shape: BoxShape.circle,
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.black26,
+                      color: Colors.black12,
                       blurRadius: 10,
                       spreadRadius: 2,
                     ),
                   ],
                 ),
-                child: Icon(Icons.lock, size: 80, color: Colors.teal),
+                child: Icon(Icons.lock, size: 80, color: Color(0xFFB39DDB)),
               ),
               SizedBox(height: 20),
               Text("Secure Login",
                   style: TextStyle(
                       fontSize: 28,
-                      color: Colors.white,
+                      color: Color(0xFF7E57C2),
                       fontWeight: FontWeight.bold)),
               SizedBox(height: 20),
               Container(
@@ -43,13 +43,20 @@ class LoginScreen3 extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(15),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black12,
+                      blurRadius: 8,
+                      spreadRadius: 2,
+                    ),
+                  ],
                 ),
                 child: Column(
                   children: [
                     TextField(
                       decoration: InputDecoration(
                         labelText: "Email",
-                        prefixIcon: Icon(Icons.email),
+                        prefixIcon: Icon(Icons.email, color: Color(0xFF7E57C2)),
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(10)),
                       ),
@@ -59,7 +66,7 @@ class LoginScreen3 extends StatelessWidget {
                       obscureText: true,
                       decoration: InputDecoration(
                         labelText: "Password",
-                        prefixIcon: Icon(Icons.lock),
+                        prefixIcon: Icon(Icons.lock, color: Color(0xFF7E57C2)),
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(10)),
                       ),
@@ -68,7 +75,7 @@ class LoginScreen3 extends StatelessWidget {
                     Align(
                       alignment: Alignment.centerRight,
                       child: Text("Forgot Password?",
-                          style: TextStyle(color: Colors.teal)),
+                          style: TextStyle(color: Color(0xFF7E57C2))),
                     ),
                     SizedBox(height: 20),
                     SizedBox(
@@ -77,7 +84,7 @@ class LoginScreen3 extends StatelessWidget {
                         onPressed: () {},
                         style: ElevatedButton.styleFrom(
                           padding: EdgeInsets.symmetric(vertical: 15),
-                          backgroundColor: Colors.teal,
+                          backgroundColor: Color(0xFFB39DDB),
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(10)),
                         ),
@@ -94,12 +101,12 @@ class LoginScreen3 extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text("Don't have an account? ",
-                      style: TextStyle(color: Colors.white)),
+                      style: TextStyle(color: Color(0xFF7E57C2))),
                   GestureDetector(
                     onTap: () {},
                     child: Text("Sign Up",
                         style: TextStyle(
-                            color: Colors.white,
+                            color: Color(0xFF7E57C2),
                             fontWeight: FontWeight.bold,
                             decoration: TextDecoration.underline)),
                   ),
@@ -111,4 +118,5 @@ class LoginScreen3 extends StatelessWidget {
       ),
     );
   }
+
 }

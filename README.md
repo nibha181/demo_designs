@@ -1,16 +1,56 @@
-# demo_designs
+# Demo Designs
 
-A Flutter project featuring multiple demo login screen designs.
+A new Flutter project containing some demo login screen designs.
 
-## Getting Started
+## Overview
+This project showcases three different login screen design templates, demonstrating various UI/UX approaches for authentication screens in Flutter.
 
-This project is a starting point for a Flutter application.
+## Screenshots
+Below are the screenshots of the three login screen designs:
 
-A few resources to get you started if this is your first Flutter project:
+### Design 1
+![Login Design 1](screenshots/design1.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Design 2
+![Login Design 2](screenshots/design2.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Design 3
+![Login Design 3](screenshots/design3.png)
+
+## Features
+- Three different login screen UI designs.
+- Responsive and adaptable layouts.
+- Customizable UI components.
+- Easy to integrate into any Flutter project.
+
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/nibha181/demo_designs.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd demo_designs
+   ```
+3. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+4. Run the project:
+   ```sh
+   flutter run
+   ```
+
+## Dependencies
+Ensure you have Flutter installed. You can check your Flutter installation with:
+```sh
+flutter doctor
+```
+
+## Contributing
+Feel free to contribute by creating pull requests or opening issues.
+
+## License
+This project is licensed under the MIT License.
+
+
