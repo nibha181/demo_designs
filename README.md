@@ -1,6 +1,6 @@
 # demo_designs
 
-A new Flutter project.Contain some demo Login designs.
+A Flutter project featuring multiple demo login screen designs.
 
 ## Getting Started
 
